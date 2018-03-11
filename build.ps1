@@ -7,5 +7,5 @@ WRITE-HOST "npm Version"
 & npm install
 & npm run build
 
-
-Compress-Archive .\dist\* .\deploy-package.zip
+Copy-Item .\web.config .\dist\web.config
+Compress-Archive .\dist\* .\deploy-package.zip -Force
