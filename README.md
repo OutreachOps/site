@@ -42,8 +42,8 @@ Build and deployment performed using AppVeyor.
 
 
 
-### Deployment Configuration
+### Deployment Configuration  
 - Deployment uses  
-Azure App Service Zip Push Deploy
-Deploys deploy-package.zip
-Configured deployment credentials
+Azure App Service Zip Push Deploy  
+Deploys deploy-package.zip  
+Configured deployment credentials  
