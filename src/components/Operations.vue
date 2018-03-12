@@ -9,7 +9,7 @@ export default {
   name: 'Operations',
   data () {
     return {
-      msg: 'Outlook Site'
+      msg: 'Outreach Site'
     }
   }
 }
