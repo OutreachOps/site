@@ -1,8 +1,13 @@
 <template>
   <div id="app">
   <nav class="navbar" role="navigation" aria-label="main navigation">
-      <a class="navbar-item">
-      Home
+      <a class="navbar-item" href="/">
+          <b-icon pack="fas"
+            icon="home"
+            size="is-small"
+            type="is-black"
+            custom-class="fal">
+            </b-icon>
       </a>
     </nav>
     <router-view/>
@@ -24,6 +29,5 @@ export default {
   color: #2c3e50;
   padding-left: 32px;
   padding-right: 32px;
- 
 }
 </style>
