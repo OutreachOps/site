@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+      <a class="navbar-item">
+      Home
+      </a>
+    </nav>
     <router-view/>
   </div>
 </template>
@@ -17,6 +22,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding-left: 32px;
+  padding-right: 32px;
+ 
 }
 </style>
