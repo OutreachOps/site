@@ -4,6 +4,8 @@ import 'buefy/lib/buefy.css'
 import Router from 'vue-router'
 import DefaultPage from '@/components/DefaultPage'
 import Operations from '@/components/Operations'
+import RegisterItem from '@/components/Register'
+import LoginItem from '@/components/Login'
 
 Vue.use(Router)
 Vue.use(Buefy,
@@ -23,6 +25,16 @@ export default new Router({
       path: '/Operations',
       name: 'Operations',
       component: Operations
+    },
+    {
+      path: '/Register',
+      name: 'Register',
+      component: RegisterItem
+    },
+    {
+      path: '/Login',
+      name: 'Login',
+      component: LoginItem
     }
   ]
 })

@@ -2,13 +2,19 @@
   <div id="app">
   <nav class="navbar" role="navigation" aria-label="main navigation">
       <a class="navbar-item" href="/">
-          <b-icon pack="fas"
+          <b-icon pack="far"
             icon="home"
-            size="is-small"
-            type="is-black"
-            custom-class="fal">
+            type="is-black">
             </b-icon>
       </a>
+    <div class="navbar-end">
+      <a class="navbar-item" href="/Register">
+          <b-icon pack="far"
+            icon="sign-in"
+            type="is-black">
+            </b-icon>
+      </a>
+    </div>
     </nav>
     <router-view/>
   </div>
@@ -27,7 +33,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 </style>
